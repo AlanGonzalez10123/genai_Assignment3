@@ -8,6 +8,11 @@ A comparative study of pre-training, fine-tuning, and retrieval-augmented genera
 `code_x_glue_cc_code_refinement` test set.
 
 ---
+## **Some of the model files were too large to push to github, so please find the paths and the google drive links to them below**:
+**[data/model_finetuned_A/model.safetensors](https://drive.google.com/drive/folders/1ZXlOMQdtKaKR6zoXT8vUT3vLyRAvfD5_?usp=sharing)**<br>
+**[data/model_finetuned_B/model.safetensors](https://drive.google.com/drive/folders/1b2t10B75Qq5V9H1cYtheHDxmdAOWIQWr?usp=sharing)**<br>
+**[data/model_pretrained/model.safetensors](https://drive.google.com/drive/folders/1DoaRqhRvTVndFx7vS3cPF6PuEsZZpVEc?usp=sharing)**<br>
+Find the base directory here: [Models Folder](https://drive.google.com/drive/folders/11FlmkjDGhhqsS8Reuq6EbhOM6kPA_F6S?usp=sharing)
 
 ## Pipelines Overview
 
