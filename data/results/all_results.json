@@ -1,0 +1,42 @@
+{
+  "Pipeline A (pre-train + fine-tune)": {
+    "exact_match": 0.0004583651642475172,
+    "codebleu": {
+      "codebleu": 0.46258688067480896,
+      "ngram_match_score": 0.46443056939307964,
+      "weighted_ngram_match_score": 0.46780724739777596,
+      "syntax_match_score": 0.46617774623452407,
+      "dataflow_match_score": 0.4519319596738563
+    }
+  },
+  "Pipeline B (fine-tune only)": {
+    "exact_match": 0.00030557677616501144,
+    "codebleu": {
+      "codebleu": 0.46440922867926854,
+      "ngram_match_score": 0.4549783884148039,
+      "weighted_ngram_match_score": 0.4623605896478245,
+      "syntax_match_score": 0.47570380884788266,
+      "dataflow_match_score": 0.46459412780656306
+    }
+  },
+  "RAG (Qwen few-shot)": {
+    "exact_match": 0.0,
+    "codebleu": {
+      "codebleu": 0.3482041458047155,
+      "ngram_match_score": 0.15924218637064913,
+      "weighted_ngram_match_score": 0.17417355941264595,
+      "syntax_match_score": 0.5227900007885813,
+      "dataflow_match_score": 0.5366108366469856
+    }
+  },
+  "Zero-shot (Qwen)": {
+    "exact_match": 0.0,
+    "codebleu": {
+      "codebleu": 0.5524778737064844,
+      "ngram_match_score": 0.3811145704117269,
+      "weighted_ngram_match_score": 0.40191543076304104,
+      "syntax_match_score": 0.6595300055200694,
+      "dataflow_match_score": 0.7673514881311001
+    }
+  }
+}
