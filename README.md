@@ -35,10 +35,10 @@ any pre-training, providing a baseline to isolate the effect of pre-training.
 ### Installation
 ```bash
 # 1. Clone this repository and navigate into it
-git clone <your-repo-url>
-cd <repo-directory>
+git clone https://github.com/AlanGonzalez10123/genai_Assignment3
+cd genai_Assignment3
 
-# 2. Install dependencies
+# 2. Install dependencies (get installed by Section 0 in notebook)
 pip install transformers==4.46.0 torch==2.2.0 datasets tokenizers \
             codebleu faiss-cpu gensim tqdm sentencepiece
 ```
